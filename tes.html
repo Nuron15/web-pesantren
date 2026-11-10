@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pondok Pesantren Roudlatul Falah</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+        body { font-family: 'Inter', sans-serif; }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- Navbar -->
+    <nav class="bg-white shadow-md fixed w-full z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16 items-center">
+                <div class="flex-shrink-0 flex items-center">
+                    <span class="font-bold text-xl text-green-700">Roudlatul Falah</span>
+                </div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#beranda" class="text-gray-600 hover:text-green-600 font-semibold transition">Beranda</a>
+                    <a href="#profil" class="text-gray-600 hover:text-green-600 font-semibold transition">Profil</a>
+                    <a href="#galeri" class="text-gray-600 hover:text-green-600 font-semibold transition">Galeri</a>
+                    <a href="#kontak" class="text-gray-600 hover:text-green-600 font-semibold transition">Kontak</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="beranda" class="relative w-full h-screen bg-cover bg-center" style="background-image: url('background.jpeg');">
+        <div class="absolute inset-0 bg-black bg-opacity-60"></div>
+        <div class="relative z-10 flex flex-col items-center justify-center h-full text-center px-4">
+            <h1 class="text-4xl md:text-6xl font-bold text-white mb-4 leading-tight">Pondok Pesantren Salafiyah <br><span class="text-green-400">Roudlatul Falah</span></h1>
+            <p class="text-lg md:text-xl text-gray-200 mb-8 max-w-2xl">Membentuk generasi penerus yang berakhlakul karimah, mandiri, dan berpegang teguh pada nilai-nilai ajaran Islam Ahlussunnah wal Jama'ah.</p>
+            <a href="#profil" class="bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-8 rounded-full transition duration-300">Kenali Kami Lebih Dekat</a>
+        </div>
+    </section>
+
+    <!-- Profil Section -->
+    <section id="profil" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row items-center gap-12">
+                <div class="md:w-1/2">
+                    <img src="1.jpeg" alt="Fasilitas Pesantren" class="rounded-lg shadow-xl w-full h-auto object-cover">
+                </div>
+                <div class="md:w-1/2">
+                    <h2 class="text-3xl font-bold text-green-800 mb-6">Tentang Roudlatul Falah</h2>
+                    <p class="text-gray-600 mb-4 leading-relaxed">
+                        Pondok Pesantren Roudlatul Falah adalah lembaga pendidikan Islam Salafiyah yang berdedikasi tinggi dalam mendidik santri melalui kajian kitab kuning, pembentukan adab, serta kemandirian.
+                    </p>
+                    <p class="text-gray-600 leading-relaxed mb-6">
+                        Dengan fasilitas yang mengedepankan kesederhanaan dan kedekatan dengan alam, kami menciptakan lingkungan yang kondusif bagi para santri untuk fokus menuntut ilmu, beribadah, dan mempererat tali persaudaraan.
+                    </p>
+                    <ul class="space-y-2 text-gray-700 font-medium">
+                        <li class="flex items-center"><span class="text-green-500 mr-2">✓</span> Kajian Kitab Kuning</li>
+                        <li class="flex items-center"><span class="text-green-500 mr-2">✓</span> Pembinaan Akhlak & Adab</li>
+                        <li class="flex items-center"><span class="text-green-500 mr-2">✓</span> Kemandirian Santri</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galeri Section -->
+    <section id="galeri" class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-green-800">Galeri & Kegiatan Santri</h2>
+                <p class="text-gray-600 mt-2">Momen kebersamaan, peringatan hari besar Islam, dan aktivitas belajar mengajar.</p>
+            </div>
+            
+            <!-- Grid Galeri -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Gambar 1 -->
+                <div class="overflow-hidden rounded-lg shadow-md group">
+                    <img src="2.jpeg" alt="Ihtipalan Santri" class="w-full h-64 object-cover transform group-hover:scale-110 transition duration-500">
+                </div>
+                <!-- Gambar 2 -->
+                <div class="overflow-hidden rounded-lg shadow-md group">
+                    <img src="7.jpeg" alt="Kegiatan Belajar" class="w-full h-64 object-cover transform group-hover:scale-110 transition duration-500">
+                </div>
+                <!-- Gambar 3 -->
+                <div class="overflow-hidden rounded-lg shadow-md group">
+                    <img src="4.jpeg" alt="Makan Bersama" class="w-full h-64 object-cover transform group-hover:scale-110 transition duration-500">
+                </div>
+                <!-- Gambar 4 -->
+                <div class="overflow-hidden rounded-lg shadow-md group">
+                    <img src="5.jpeg" alt="Asatidz dan Tokoh Agama" class="w-full h-64 object-cover transform group-hover:scale-110 transition duration-500">
+                </div>
+                <!-- Gambar 5 -->
+                <div class="overflow-hidden rounded-lg shadow-md group">
+                    <img src="6.jpeg" alt="Penampilan Santri" class="w-full h-64 object-cover transform group-hover:scale-110 transition duration-500">
+                </div>
+                <!-- Gambar 6 -->
+                <div class="overflow-hidden rounded-lg shadow-md group">
+                    <img src="8.jpeg" alt="Penampilan Panggung Santri" class="w-full h-64 object-cover transform group-hover:scale-110 transition duration-500">
+                </div>
+                <!-- Gambar 7 (Dibuat lebar di layar besar) -->
+                <div class="overflow-hidden rounded-lg shadow-md group sm:col-span-2 lg:col-span-3">
+                    <img src="3.jpeg" alt="Penampilan Santri Bersama" class="w-full h-80 object-cover object-top transform group-hover:scale-105 transition duration-500">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="kontak" class="bg-green-900 text-white py-10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center">
+            <div class="mb-6 md:mb-0 text-center md:text-left">
+                <h3 class="text-2xl font-bold mb-2">PP. Roudlatul Falah</h3>
+                <p class="text-green-200 text-sm">Mendidik Generasi Islami yang Beradab dan Mandiri.</p>
+            </div>
+            <div class="text-center md:text-right">
+                <p class="mb-2">Hubungi Kami:</p>
+                <p class="text-green-200 text-sm">info@roudlatulfalah.example.com</p>
+                <p class="text-green-200 text-sm mt-4">&copy; 2026 Pondok Pesantren Roudlatul Falah. Hak Cipta Dilindungi.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
